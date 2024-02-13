@@ -4,7 +4,7 @@
         "id": "1",
         "src": "./img/product-chain-1.png",
         "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique "
       },
       {
         "id": "2",
@@ -15,21 +15,21 @@
       {
         "id": "3",
         "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
+        "title": "Webflow Development",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "4",
         "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
+        "title": "IT",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/Whack_a_Mole.PNG",
-        "title": "Ahuse",
+        "src": "./img/Sim.png",
+        "title": "Covid sim",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "link": "View In Github"
       },
@@ -42,7 +42,7 @@
       },
       {
         "id": "3",
-        "src": "./img/Proj1.png",
+        "src": "./img/Sim.png",
         "title": "Easy Rentn",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "link": "View In Github"
