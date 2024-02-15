@@ -186,6 +186,13 @@ h2 {
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
+
+.hero-image {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make it circular */
+}
+
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -193,7 +200,8 @@ h2 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  background-color: var(--bg-shade);
+  /* background-color: var(--bg-shade); */
+  background-color:#000000;
 }
 .hero--section--content-box {
   display: flex;
@@ -221,13 +229,15 @@ h2 {
   color: var(--primary);
 }
 .hero--section-description {
-  color: var(--darkblue);
+  /* color: var(--darkblue); */
+  color: #f5fcff;
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
 }
 .hero--section--img {
   display: flex;
+  align-items: center;
 }
 .hero--section--img > img {
   width: 100%;
@@ -307,6 +317,21 @@ h2 {
 /* Skills Style Ends */
 
 /* About Us */
+
+.about-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make it circular */
+}
+
+.about--section{
+  background-color: #000000;
+}
+
+.skills-section--heading{
+  color: #DDC1A6;
+}
+
 .about--section {
   display: grid;
   padding: 133.3px 85.3px;
@@ -315,8 +340,9 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
+  border-radius: 30%;
 }
 /* About Us Ends */
 

@@ -57,7 +57,7 @@ const MainPage = () =>{
           </div>
         </div>
         <div className="hero--section--img">
-          <img src="./img/aboutme.PNG" alt="Hero Section" />
+        <img className="hero-image" src="./img/image0.png" alt="Hero Section" />
         </div>
       </section>
     )

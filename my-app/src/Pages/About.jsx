@@ -4,11 +4,14 @@
         <section id="AboutMe" className="about--section">
       <div className="about--section--img">
         {/* <img src="../../public/img/about-me.png" alt="About Me"/> */}
-        <img src="/img/aboutme.png" alt="About Me" />
+        <img src="/img/Wifey.jpg" alt="About Me" />
+        <img src="/img/image0.jpg" alt="About Me" />
+        <img src="/img/ForbesFam.jpg" alt="About Me" />
+        <img src="/img/BoctorFam.jpg" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
+          {/* <p className="section--title">About</p> */}
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
           Greetings! I'm Clayton Forbes, a budding Software Developer with a solid foundation in computer systems and network infrastructure.
