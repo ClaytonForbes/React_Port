@@ -217,6 +217,7 @@ h2 {
   gap: 32px;
   /* background-color: var(--bg-shade); */
   background-color:#000000;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
 }
 .hero--section--content-box {
   display: flex;
@@ -272,6 +273,7 @@ h2 {
 
 .skills--section {
   background-color: #DDC1A6;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
   display: flex;
   padding: 149.33px 85.33px;
   flex-direction: column;
@@ -354,6 +356,7 @@ h2 {
 
 .about--section{
   background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
 }
 
 .skills-section--heading{
@@ -377,6 +380,7 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   background-color: #DDC1A6;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
@@ -448,6 +452,7 @@ h2 {
 
 .contact--section {
   background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
   display: flex;
   padding: 150px 85px;
   flex-direction: column;
