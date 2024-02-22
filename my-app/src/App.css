@@ -203,9 +203,12 @@ h2 {
 /* Hero Section Style */
 
 .hero-image {
-  width: 150px; /* Adjust the width as needed */
-  height: 150px; /* Adjust the height as needed */
-  border-radius: 50%; /* Make it circular */
+  /* width: 150px; /* Adjust the width as needed */
+ /* height: 150px; Adjust the height as needed */
+  /* border-radius: 50%; Make it circular */
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .hero--section {
@@ -217,7 +220,12 @@ h2 {
   gap: 32px;
   /* background-color: var(--bg-shade); */
   background-color:#000000;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+  /* background-image: url("../public/img/ForbesFam.jpg"); */
+  /* background-size: cover; /* Ensures the background image covers the entire container */
+  /* background-position: center; Centers the background image */
+  /* background-repeat: no-repeat; Prevents the background image from repeating */ 
+
 }
 .hero--section--content-box {
   display: flex;
@@ -260,8 +268,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   align-items: center;
 }
 .hero--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 70%;  /*this changes the size of the photo */
+  height: 50%;
 }
 /* Hero Section Style Ends */
 
