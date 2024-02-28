@@ -47,13 +47,18 @@ p {
   -o-transition: background-color 0.5s;
 }
 .btn-outline-primary {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color:#DDC1A6;
   background-color: var(--white);
-  border: 1px solid var(--primary);
+  /* border: 1px solid var(--primary); */
+  border:1px solid #000000
+
 }
 .btn-outline-primary:hover {
-  color: var(--white);
-  background-color: var(--primary);
+  /* color: var(--white); */
+  color:#000000;
+  /* background-color: var(--primary); */
+  background-color: #DDC1A6;
 }
 .btn-primary {
   color: var(--white);
@@ -61,10 +66,12 @@ p {
   background-color: #DDC1A6;
   /* border: 1px solid var(--primary); */
   border: 1px solid #000000;
-}
+}       
 .btn-primary:hover {
-  color: var(--primary);
-  background-color: var(--white);
+  /* color: var(--primary); */
+  color:#DDC1A6;
+  /* background-color: var(--white); */
+  background-color:#000000;
 }
 .btn-github {
   color: var(--white);
@@ -196,7 +203,10 @@ h2 {
   cursor: pointer;
 }
 .navbar--active-content {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color:#DDC1A6;
+  font-size: large;
+  
 }
 /* Navbar Styler Ends */
 
@@ -268,8 +278,9 @@ h2 {
   align-items: center;
 }
 .hero--section--img > img {
-  width: 70%;  /*this changes the size of the photo */
-  height: 50%;
+  width: 90%;  /*this changes the size of the photo */
+  height: 60%;
+  /* text-align: center; */
 }
 /* Hero Section Style Ends */
 
