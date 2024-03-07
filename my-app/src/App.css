@@ -7,7 +7,7 @@ body {
   /* background-color: #000000; */
 }
 
-/* .hero--section,
+.hero--section,
 .skills--section,
 .about--section,
 .portfolio--section {
@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-} */
+}
 
 h1,
 h2,
@@ -158,7 +158,7 @@ h2 {
 }
 
 .section--title {
-  color: var(--heading-color);
+  color: #DDC1A6;
   font-size: 21px;
   text-align: center;
   font-style: normal;
@@ -323,7 +323,7 @@ background-image: url("../../my-app/public/img/nav-background.png");
 
 }
 .skills--section--heading {
-  color: var(--heading-color);
+  color: #DDC1A6;
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
@@ -342,7 +342,6 @@ background-image: url("../../my-app/public/img/nav-background.png");
 /* Add the following styles for the slide animation */
 
 .skills--section--expanded-container {
-
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
