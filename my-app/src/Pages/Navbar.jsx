@@ -37,7 +37,7 @@ const Navbar = () =>{
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./Images/logo.svg" alt="Logo" />
+        <img  className="wlogo" src="./img/wolfL2.png" alt="Logo" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}

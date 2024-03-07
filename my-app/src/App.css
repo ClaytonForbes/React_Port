@@ -6,6 +6,17 @@ body {
   font-style: normal;
   /* background-color: #000000; */
 }
+
+/* .hero--section,
+.skills--section,
+.about--section,
+.portfolio--section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
 h1,
 h2,
 h3,
@@ -68,8 +79,10 @@ p {
 }
 .btn-github {
   color: var(--white);
-  background-color: var(--github);
-  border: var(--github);
+  /* background-color: var(--github); */
+  background-color: #000000;
+  /* border: var(--github); */
+  border: #DDC1A6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -78,7 +91,8 @@ p {
   gap: 16px;
 }
 .btn-github:hover {
-  color: var(--github);
+  /* color: var(--github); */
+  color: #DDC1A6;
   background-color: var(--white);
 }
 /* Global CSS Ends */
@@ -215,6 +229,12 @@ background-image: url("../../my-app/public/img/nav-background.png");
   border-radius: 50%;
 }
 
+.wlogo{
+  width:50px;
+  height:50px;
+}
+
+
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -286,13 +306,20 @@ background-image: url("../../my-app/public/img/nav-background.png");
 
 .skills--section {
   background-color: #DDC1A6;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png"); */
+  background-image: url("../public//img/wolf_background.jpg");
+  /* background-repeat: 'no-repeat'; */
+  /* background-size: 1300px; */
+  background-size: cover;
+  background-position: center;
   display: flex;
   padding: 149.33px 85.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
+  background-color: rgba(229, 229, 229, 0.7); /* Adjust the alpha (0.7) for transparency */
+  transition: background-color 0.5s ease; /* Smooth transition effect */
 
 }
 .skills--section--heading {
@@ -301,13 +328,59 @@ background-image: url("../../my-app/public/img/nav-background.png");
   font-weight: 700;
   line-height: 77px;
 }
+.toggle-button {
+  font-size: 16px;
+  background-color: #DDC1A6;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Add the following styles for the slide animation */
+
+.skills--section--expanded-container {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 42.6px;
+  flex-wrap: wrap;
+  opacity: 1;
+  max-height: 1000px; /* Set a max height for animation purposes */
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.skills--section--expanded-container.hidden {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
 .skills--section--container {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
 }
+
+.skills--section--container.expanded {
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills--section--expanded-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 42.6px;
+  flex-wrap: wrap;
+}
+
 .skills--section--card {
   display: flex;
   padding: 32px;
@@ -322,6 +395,7 @@ background-image: url("../../my-app/public/img/nav-background.png");
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
+  background-color: #E5E5E5; /* Adjust the color for hover state */
 }
 .skills--section--card:hover .skills--section--description {
   color: var(--darkblue);
@@ -370,6 +444,7 @@ background-image: url("../../my-app/public/img/nav-background.png");
 .about--section{
   background-color: #000000;
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+
 }
 
 .skills-section--heading{

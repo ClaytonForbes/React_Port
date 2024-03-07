@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 
 
 const MainPage = () =>{
@@ -46,9 +47,24 @@ const MainPage = () =>{
           <div className="hero--section--content">
             <p className="section--title-p">Hey, I'm Clayton</p>
             <h1 className="hero--section--title">
-              <span className="hero--section-title--color">{typedText}</span>{" "}
+              {/* <span className="hero--section-title--color">{typedText}</span>{" "}
               <br />
-              Developer
+              Developer */}
+              <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                'Software Developer',
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Full Stack Developer',
+                1000,
+                'IT Technicain',
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: '1em', display: 'inline-block' }}
+              repeat={Infinity}
+              />
             </h1>
             <p className="hero--section-description">
             A dedicated software developer with a knack for crafting elegant solutions. 
