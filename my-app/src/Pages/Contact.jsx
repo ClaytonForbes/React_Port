@@ -81,7 +81,7 @@ const ContactMe = () => {
         <footer className="footer--container">
           <div className="footer--link--container">
             <div>
-              <img src="./img/logo.svg" alt="Logoipsum" />
+              <img className ='wlogo' src="./img/wolfL2.png" alt="Wolflogo" />
             </div>
             <div className="footer--items">
               <ul>
@@ -234,7 +234,7 @@ const ContactMe = () => {
           </div>
           <hr className="divider" />
           <div className="footer--content--container">
-            <p className="footer--content">Made by Clayton</p>
+            <p className="footer--content">Made by Clayton with the Wolves, Inspired by John(Ade-mir)</p>
             <div className="footer--social--icon">
               <ul>
                 <li>
