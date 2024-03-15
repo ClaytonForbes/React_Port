@@ -15,6 +15,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: auto;
+}
+
+.vertical-timeline {
+  position: relative;
+  width: 100%; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
 }
 
 h1,
@@ -432,6 +439,23 @@ background-image: url("../../my-app/public/img/nav-background.png");
   line-height: 32px;
 }
 /* Skills Style Ends */
+
+
+.resume-page{
+  height: 100vh;
+  background-color: #DDC1A6;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
+}
+.custom-icon {
+  position: absolute;
+  left: calc(50% - 8px); /* Adjust the positioning as needed */
+  top: 0;
+  transform: translateY(-50%);
+  z-index: 1000; /* Ensure icons appear above the timeline line */
+}
+
+
+
 
 /* About Us */
 

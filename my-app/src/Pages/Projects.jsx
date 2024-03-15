@@ -1,6 +1,11 @@
 import data from "../data"
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import Badge from "react-bootstrap/Badge";
+
 
 const Projects = () =>{
     return (
@@ -21,12 +26,7 @@ const Projects = () =>{
           </a>
         </div>
       </div>
-    
       <div className="portfolio--section--container">
-        {/* <VerticalTimeline>
-          <VerticalTimelineElement>
-
-          </VerticalTimelineElement> */}
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
@@ -43,7 +43,6 @@ const Projects = () =>{
             </div>
           </div>
         ))}
-        
       </div>
     </section>
     )
