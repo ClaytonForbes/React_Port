@@ -21,7 +21,7 @@ body {
 .vertical-timeline {
   position: relative;
   width: 100%; /* Adjust the width as needed */
-  height: 500px; /* Adjust the height as needed */
+  /* height: 1100px; Adjust the height as needed */
 }
 
 h1,
