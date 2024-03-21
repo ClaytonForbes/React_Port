@@ -30,6 +30,7 @@ const ResumePage = () => {
         <div className="resume-page">
           <h1>My Resume</h1>
           <button onClick={handleDownloadResume}>Download Resume</button>
+          <div id="timeline">
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -113,6 +114,7 @@ const ResumePage = () => {
             </VerticalTimelineElement> 
             
           </VerticalTimeline>
+          </div>
         </div>
       );
       

@@ -16,12 +16,25 @@ return (
       <h2 className="skills--section--heading"> <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'I am a Software Developer Currently',
+                'Front-End',
                 3000, // wait 1s before replacing "Mice" with "Hamsters"
-                'I am a Full Stack Developer',
+                'Back-End',
                 3000,
-                ' I am also an IT Technicain and Speaialist',
+                'Comptia A+',
                 3000,
+                'Comptia Network+',
+                3000,
+                'Linux User',
+                3000,
+                'Apple User',
+                3000,
+                'Windows User',
+                3000,
+                'MongoDB',
+                3000,
+                'Hardware Development',
+                3000,
+                
               ]}
               wrapper="span"
               speed={50}

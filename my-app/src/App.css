@@ -20,8 +20,17 @@ body {
 
 .vertical-timeline {
   position: relative;
-  width: 100%; /* Adjust the width as needed */
+  /* width: 100%; Adjust the width as needed */
   /* height: 1100px; Adjust the height as needed */
+  height: auto;
+  padding: none;
+
+}
+
+
+
+.vertialtime{
+  height: 100px;
 }
 
 h1,
@@ -401,7 +410,8 @@ background-image: url("../../my-app/public/img/nav-background.png");
   min-height: 250px;
 }
 .skills--section--card:hover {
-  border-bottom: 4px solid var(--primary);
+  /* border-bottom: 4px solid var(--primary); */
+  border-bottom: 5px solid #DDC1A6;
   background-color: #E5E5E5; /* Adjust the color for hover state */
 }
 .skills--section--card:hover .skills--section--description {
