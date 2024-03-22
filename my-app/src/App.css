@@ -23,15 +23,11 @@ body {
   /* width: 100%; Adjust the width as needed */
   /* height: 1100px; Adjust the height as needed */
   height: auto;
-  padding: none;
 
 }
 
 
 
-.vertialtime{
-  height: 100px;
-}
 
 h1,
 h2,
@@ -452,7 +448,7 @@ background-image: url("../../my-app/public/img/nav-background.png");
 
 
 .resume-page{
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #DDC1A6;
   background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
 }
