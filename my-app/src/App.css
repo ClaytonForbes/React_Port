@@ -320,7 +320,8 @@ background-image: url("../../my-app/public/img/nav-background.png");
 .skills--section {
   background-color: #DDC1A6;
   /* background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png"); */
-  background-image: url("../public//img/wolf_background.jpg");
+  /* background-image: url("../public//img/wolf_background.jpg"); */
+  background-image: url("../public/img/AI-ME.jpg");
   /* background-repeat: 'no-repeat'; */
   /* background-size: 1300px; */
   background-size: cover;
