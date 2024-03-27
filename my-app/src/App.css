@@ -257,9 +257,10 @@ background-image: url("../../my-app/public/img/nav-background.png");
   gap: 32px;
   /* background-color: var(--bg-shade); */
   background-color:#000000;
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png"); */
+  background-image: url("../public//img/Animephoto1.jpg");
   /* background-image: url("../public/img/ForbesFam.jpg"); */
-  /* background-size: cover; /* Ensures the background image covers the entire container */
+  background-size: cover; /* Ensures the background image covers the entire container
   /* background-position: center; Centers the background image */
   /* background-repeat: no-repeat; Prevents the background image from repeating */ 
 
@@ -318,13 +319,15 @@ background-image: url("../../my-app/public/img/nav-background.png");
 
 
 .skills--section {
-  background-color: #DDC1A6;
+  /* background-color: #DDC1A6; */
   /* background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png"); */
+  background-color:#000000;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
   /* background-image: url("../public//img/wolf_background.jpg"); */
-  background-image: url("../public/img/AI-ME.jpg");
+  /* background-image: url("../public/img/AI-ME.jpg"); */
   /* background-repeat: 'no-repeat'; */
   /* background-size: 1300px; */
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   display: flex;
   padding: 149.33px 85.33px;
@@ -332,8 +335,10 @@ background-image: url("../../my-app/public/img/nav-background.png");
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
-  background-color: rgba(229, 229, 229, 0.7); /* Adjust the alpha (0.7) for transparency */
-  transition: background-color 0.5s ease; /* Smooth transition effect */
+  /* background-color: rgba(229, 229, 229, 0.7); */
+   /* Adjust the alpha (0.7) for transparency */
+  /* transition: background-color 0.5s ease;  */
+  /* Smooth transition effect */
 
 }
 .skills--section--heading {

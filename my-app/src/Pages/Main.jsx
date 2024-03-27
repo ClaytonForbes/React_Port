@@ -73,7 +73,8 @@ const MainPage = () =>{
           </div>
         </div>
         <div className="hero--section--img">
-        <img className="hero-image" src="./img/image0.png" alt="Hero Section" />
+        {/* <img className="hero-image" src="./img/image0.png" alt="Hero Section" /> */}
+        {/* <img className="hero-image" src="./img/Animephoto1.jpg" alt="Hero Section/" /> */}
         </div>
       </section>
     )
